@@ -58,7 +58,6 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background-image: url(/img/fondo.jpg);
-    background-size: cover;
     height: 100vh;
     color: #fff;
     display: flex;
