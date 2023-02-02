@@ -57,8 +57,7 @@ html{
 }
 /* SECCION I N I C I O */
 .inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
+    background-image: url(/img/fondo.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -68,13 +67,14 @@ html{
 .inicio .contenido-banner{
     padding: 20px;
     background-color: #1e2326;
-    max-width: 350px;
+    max-width: 450px;
     margin: auto;
+    margin-top: 80px;
     text-align: center;
     border-radius: 40px;
 }
 .inicio .contenido-banner img{
-    margin-top: 40px;
+    margin-top: 70px;
     border: 10px solid #00C2CB;
     display: block;
     width: 80%;
@@ -274,47 +274,47 @@ html{
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript{
+.skills .skill .adobepremier{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s adobepremier forwards;
 }
-@keyframes javascript {
+@keyframes adobepremier {
     0%{width: 0%;}
     100%{width: 75%;}
 }
 
-.skills .skill .htmlcss{
+.skills .skill .aftereffects{
     width: 0%;
-    animation: 2s htmlcss forwards;
+    animation: 2s aftereffect forwards;
 }
-@keyframes htmlcss {
+@keyframes aftereffect {
     0%{width: 0%;}
     100%{width: 89%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .photoshoplightroom{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s photoshoplightroom forwards;
 }
-@keyframes photoshop {
+@keyframes photoshoplightroom {
     0%{width: 0%;}
     100%{width: 95%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .adobeiilustrator{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s adobeiilustrator forwards;
 }
-@keyframes wordpress {
+@keyframes adobeiilustrator {
     0%{width: 0%;}
     100%{width: 81%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .htmlcssjs{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s htmlcssjs forwards;
 }
-@keyframes drupal {
+@keyframes htmlcssjs {
     0%{width: 0%;}
     100%{width: 55%;}
 }
@@ -501,31 +501,7 @@ html{
     width: 100%;
     display: block;
 }
-.portfolio .galeria .proyecto .overlay{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    background: linear-gradient(#00C2CB, #00C2CB);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    transition: 1s;
-    font-size: 18px;
-    letter-spacing: 3px;
-    opacity: 0;
-}
-.portfolio .galeria .proyecto .overlay h3{
-    margin-bottom: 20px;
-    transition: 1s;
-}
-.portfolio .galeria .proyecto .overlay:hover{
-    opacity: 1;
-}
-.portfolio .galeria .proyecto .overlay:hover h3{
-    margin-bottom: 0px;
-}
+
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
