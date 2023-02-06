@@ -56,8 +56,9 @@ html{
     display: none;
 }
 /* SECCION I N I C I O */
+
 .inicio{
-    background-image: url(img/fondo1.jpg);
+    background-image: url(https://www.avisualpro.es/wp-content/uploads/2019/07/10-consejos-de-premiere-pro.jpg);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -273,7 +274,7 @@ html{
     right: -15px;
     font-size: 14px;
 }
-/* Estas clases se agregaran dinamicamente mediante javascript */
+
 .skills .skill .adobepremier{
     width: 0%;
     animation: 2s adobepremier forwards;

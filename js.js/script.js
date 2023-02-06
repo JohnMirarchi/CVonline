@@ -16,6 +16,21 @@ function seleccionar(){
     menuVisible = false;
 }
 
+//Descargar Cv
+
+let downloadButton = document.getElementById("download-button");
+let downloadLink = document.getElementById("download-link");
+let downloadOverlay = document.getElementById("download-overlay");
+
+downloadButton.addEventListener("click", function() {
+  downloadOverlay.style.display = "block";
+  downloadLink.click();
+});
+
+downloadLink.addEventListener("click", function() {
+  downloadOverlay.style.display = "none";
+});
+
 //Funcion que aplica las animaciones de las habilidades
 function efectoHabilidades(){
     var skills = document.getElementById("skills");
